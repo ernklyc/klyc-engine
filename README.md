@@ -20,4 +20,13 @@ Apple's Game Porting Toolkit / D3DMetal. Its license does not allow redistributi
 
 ## License
 
-Each file keeps the license of its project (see SOURCES.md). This repository is free and non-commercial.
+Each file keeps the license of its project (see SOURCES.md); the license texts are in [`licenses/`](licenses):
+
+| Text | Applies to |
+|---|---|
+| [LGPL-2.1](licenses/LGPL-2.1.txt) | Wine (and Sikarugir's Wine builds), the Wine patches, Winetricks |
+| [MIT](licenses/MIT-DXMT.txt) | DXMT (and KLYC-Box's own small components: the D3DMetal timestamp shim, the audio buffer fix) |
+| [zlib](licenses/zlib-DXVK.txt) | DXVK (Direct3D 9) |
+| [Apache-2.0](licenses/Apache-2.0.txt) | MoltenVK (with the patches in `source/patches`) |
+
+This repository is free and non-commercial.
